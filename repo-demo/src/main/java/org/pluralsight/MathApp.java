@@ -27,7 +27,7 @@ public class MathApp {
         double pointY2 = 50;
         double pointX = pointX2 - pointX1;
         double pointY = pointY2 - pointY1;
-        double distance = Math.sqrt(pointX + pointY);
+        double distance = Math.sqrt(Math.pow(pointX, 2) + Math.pow(pointY, 2));
         System.out.println("The distance is " + distance);
 
         double preAbsoluteValue = -3.8;
